@@ -1,0 +1,236 @@
+.App {
+  text-align: center; 
+}
+body{
+  background-color: rgb(207, 198, 198);
+}
+.frame {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #349e9e;
+  height: 180px;
+  width: 1238px;
+}
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  height: 465px;
+  width: 1170px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  border: 1px solid rgb(102, 98, 98);
+  
+}
+#fixedFrame {
+  height: 380px;
+  width: 317px;
+}
+.frame2 { 
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 465px;
+  width: 845px;
+}
+#frameMain {
+  height: 390px;
+  overflow: scroll;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 45px;
+  width: 303px;
+  border: 0.5px solid rgb(102, 98, 98);
+}
+.box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 30px;
+  width: 315px;
+  border: 1px solid rgb(102, 98, 98);
+}
+.box3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #e7e9e9;
+  height: 45px;
+  width: 315px;
+  border: 1px solid rgb(102, 98, 98);
+}
+.iconDp{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 60px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.img1{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.icon2{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.img2{
+  display: flex;
+  align-self: flex-start;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.img3{
+  display: flex;
+  align-self: flex-start;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.font1 {
+  display: flex;
+  height: 10px;
+  width: 50px;
+  font-size: 10px;
+}
+/* 
+.para {
+  display: flex;
+  height: 45px;
+  width: 810px;
+} */
+.para1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 47px;
+  width: 853px;
+  background-color: #e7e9e9;
+}
+.para2 {
+  display: flex;
+  align-content: flex-end ;
+  height: 423px;
+  width: 853px;
+  overflow: scroll;
+  background-color: rgb(248, 235, 218);
+}
+
+.para3 {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 853px;
+  background-color: #e7e9e9;
+}
+.main1{
+  height: 45px;
+  width: 42px;
+}
+.main2{
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 220px;
+}
+#two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  width: 220px;
+  margin-right: 25px;
+}
+#three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  width: 220px;
+  margin-right: 25px;
+}
+
+.inputOne {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.inputTwo {
+  display: flex;
+  align-content: flex-end;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.inputThree{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.icon1{
+  display: flex;
+  align-self: flex-start;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.inpt {
+  display: flex;
+  height: 20px;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.input2{
+  display: flex;
+  height: 20px;
+  width: 700px;
+  margin-top: 5px;
+}
+.input3{
+  display: flex;
+  align-self: center;
+  height: 15px;
+  width: 275px;
+}
+.title1{
+  display: flex;
+  flex-direction: row;
+}
+.title2{
+  display: flex;
+  flex-direction: row;
+}
